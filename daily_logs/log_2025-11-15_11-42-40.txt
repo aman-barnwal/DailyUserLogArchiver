@@ -1,0 +1,39 @@
+===== Daily User Log Archiver =====
+User: ishendra
+Date: Sat Nov 15 11:42:40 UTC 2025
+------------------------------------
+Uptime:
+up 10 minutes
+------------------------------------
+Top 5 CPU consuming processes:
+    PID COMMAND         %MEM %CPU
+    584 daily_log.sh     0.0 10.0
+      1 systemd          0.1  0.1
+    547 bash             0.0  0.0
+    487 xdg-desktop-por  0.1  0.0
+    467 xdg-desktop-por  0.1  0.0
+------------------------------------
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            5.8G     0  5.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            5.8G  4.0K  5.8G   1% /mnt/wsl
+drivers         475G  264G  211G  56% /usr/lib/wsl/drivers
+/dev/sdd       1007G  5.4G  951G   1% /
+none            5.8G   88K  5.8G   1% /mnt/wslg
+none            5.8G     0  5.8G   0% /usr/lib/wsl/lib
+rootfs          5.8G  2.7M  5.8G   1% /init
+none            5.8G  564K  5.8G   1% /run
+none            5.8G     0  5.8G   0% /run/lock
+none            5.8G     0  5.8G   0% /run/shm
+none            5.8G   76K  5.8G   1% /mnt/wslg/versions.txt
+none            5.8G   76K  5.8G   1% /mnt/wslg/doc
+C:\             475G  264G  211G  56% /mnt/c
+tmpfs           1.2G   24K  1.2G   1% /run/user/1000
+------------------------------------
+Logs currently in /home/ishendra/daily_logs:
+total 16K
+drwxr-xr-x 2 ishendra ishendra 4.0K Nov 15 11:40 archive
+-rw-r--r-- 1 ishendra ishendra 1.9K Nov 15 11:40 log_2025-11-15_11-40-58.txt
+-rw-r--r-- 1 ishendra ishendra 1.3K Nov 15 11:42 log_2025-11-15_11-42-40.txt
+-rw-r--r-- 1 ishendra ishendra  100 Nov 15 11:40 monthly_summary.txt
+====================================
