@@ -1,0 +1,47 @@
+===== Daily User Log Archiver =====
+User: ishendra
+Date: Sun Nov 16 12:50:40 UTC 2025
+------------------------------------
+System Uptime:
+up 0 minutes
+------------------------------------
+Top 5 CPU-consuming processes:
+    PID COMMAND         %MEM %CPU
+    340 check-new-relea  0.8 71.1
+    348 systemd          0.0 31.4
+    374 bash             0.0 18.1
+      1 systemd          0.1 14.0
+    161 snapd            0.3 10.1
+------------------------------------
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            5.8G     0  5.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            5.8G  4.0K  5.8G   1% /mnt/wsl
+drivers         475G  271G  205G  57% /usr/lib/wsl/drivers
+/dev/sdd       1007G  5.3G  951G   1% /
+none            5.8G   80K  5.8G   1% /mnt/wslg
+none            5.8G     0  5.8G   0% /usr/lib/wsl/lib
+rootfs          5.8G  2.7M  5.8G   1% /init
+none            5.8G  552K  5.8G   1% /run
+none            5.8G     0  5.8G   0% /run/lock
+none            5.8G     0  5.8G   0% /run/shm
+none            5.8G   64K  5.8G   1% /mnt/wslg/versions.txt
+none            5.8G   64K  5.8G   1% /mnt/wslg/doc
+C:\             475G  271G  205G  57% /mnt/c
+tmpfs           1.2G   20K  1.2G   1% /run/user/1000
+------------------------------------
+Logs currently in /home/ishendra/daily_logs:
+total 52K
+drwxr-xr-x 2 ishendra ishendra 4.0K Nov 15 11:40 archive
+-rw-r--r-- 1 ishendra ishendra 1.9K Nov 15 11:40 log_2025-11-15_11-40-58.txt
+-rw-r--r-- 1 ishendra ishendra 1.7K Nov 15 11:42 log_2025-11-15_11-42-40.txt
+-rw-r--r-- 1 ishendra ishendra 1.7K Nov 15 11:42 log_2025-11-15_11-42-52.txt
+-rw-r--r-- 1 ishendra ishendra 1.8K Nov 15 13:05 log_2025-11-15_13-05-41.txt
+-rw-r--r-- 1 ishendra ishendra 1.9K Nov 15 13:06 log_2025-11-15_13-06-22.txt
+-rw-r--r-- 1 ishendra ishendra 2.0K Nov 15 13:09 log_2025-11-15_13-09-42.txt
+-rw-r--r-- 1 ishendra ishendra 2.0K Nov 15 13:19 log_2025-11-15_13-19-00.txt
+-rw-r--r-- 1 ishendra ishendra 2.1K Nov 15 13:20 log_2025-11-15_13-20-23.txt
+-rw-rw-r-- 1 ishendra ishendra 4.3K Nov 15 14:18 log_2025-11-15_14-18-24.txt
+-rw-rw-r-- 1 ishendra ishendra 1.4K Nov 16 12:50 log_2025-11-16_12-50-40.txt
+-rw-r--r-- 1 ishendra ishendra  986 Nov 15 14:18 monthly_summary.txt
+====================================
